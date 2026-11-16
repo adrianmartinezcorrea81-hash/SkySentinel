@@ -1,0 +1,25 @@
+body {
+    background-color: #051405;
+    /* Fondo oscuro estilo terminal */
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    max-width: 100%;
+    height:  auto ;
+    width: 70px;
+}
+
+/* 2. Aplicar la fuente y el efecto de brillo */
+.efecto-terminal {
+    font-family: 'VT323', monospace;
+    font-size: 80px;
+    color: #d4ffd4;
+    /* Color base verde muy clarito/blanco */
+    /* Efecto de resplandor verde similar a la imagen */
+    text-shadow: 0 0 8px #5cff5c, 0 0 15px #00a800;
+    letter-spacing: 2px;
+}

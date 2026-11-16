@@ -14,7 +14,7 @@
 
         <nav id="menu-navegacion">
             <div class="marca">
-                <img src="IMAGENES/Logo.png" alt="Logo">
+                <img src="../imagenes/Logo.png" alt="Logo">
                 <p>Sky Sentinel</p>
             </div>
             
@@ -40,7 +40,7 @@
         </table>
             <div class="directo">
                 <h3>VIDEO EN DIRECTO</h3>
-                <img src="IMAGENES/VideoImagen.webp" alt="Video">
+                <img src="../imagenes/VideoImagen.webp" alt="Video">
             </div>
     </main>
 

@@ -1,25 +1,87 @@
 body {
     background-color: #051405;
-    /* Fondo oscuro estilo terminal */
-    
-}
-header{
-    display: flex;
-    flex-direction: row;
-}
-.logo{
-    max-width: 100%;
-    height:  auto ;
-    width: 70px;
+    margin: 0;
+    display: flex;              /* Activa Flexbox en toda la página */
+    flex-direction: column;     /* Coloca el header arriba y la tarjeta debajo */
+    min-height: 100vh;          /* Hace que el body ocupe el 100% del alto de la pantalla */
 }
 
-/* 2. Aplicar la fuente y el efecto de brillo */
+header {
+    display: flex;
+    align-items: center;
+    gap: 15px;             
+    padding: 15px 50px;    /* 15px arriba/abajo y 50px izquierda/derecha */
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.logo2{
+    width: 100px;
+    height: auto;
+    padding: 15px 15px;
+}
+
 .efecto-terminal {
     font-family: 'VT323', monospace;
-    font-size: 80px;
+    font-size: 20px;
     color: #d4ffd4;
-    /* Color base verde muy clarito/blanco */
-    /* Efecto de resplandor verde similar a la imagen */
     text-shadow: 0 0 8px #5cff5c, 0 0 15px #00a800;
     letter-spacing: 2px;
+    margin: 0;             /* Limpia los márgenes por defecto del <p> */
+}
+
+.efecto-terminal.espaciado {
+    margin-left: auto;    
+}
+
+.efecto-terminal.apagado {
+    font-size: 15px;
+    color: #466b46;
+    text-shadow: 0 0 2px rgba(70, 107, 70, 0.35), 0 0 5px rgba(18, 56, 18, 0.4);
+
+}
+.Tarjeta-Login {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 8px;
+    margin: auto;
+    
+}
+.Formulario-Login{
+   display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Formulario-Login input{
+    background-color: #051405;
+    border-color: #051405;
+    padding: 10px 15px;
+    
+    
+
+}
+.Formulario-Login button{
+    background-color: #051405;
+    border-color: #051405;
+    padding: 10px 15px;
+    
+    
+
+}
+
+
+.Formulario-Login input::placeholder{
+
+    font-size: 15px;
+    color: #466b46;
+    text-shadow: 0 0 2px rgba(70, 107, 70, 0.35), 0 0 5px rgba(18, 56, 18, 0.4);  
 }

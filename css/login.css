@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #051405;
     margin: 0;
@@ -21,9 +23,20 @@ header {
 }
 
 .logo2{
-    width: 100px;
+    width: 120px;
     height: auto;
     padding: 15px 15px;
+    
+
+}
+
+.logo-texto
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
 }
 
 .efecto-terminal {
@@ -51,32 +64,60 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 40px;
-    border-radius: 8px;
+    padding: 40px 80px;
     margin: auto;
+    border: 1px solid #1b4d1b ;
+    border-radius:  12px ;
     
 }
-.Formulario-Login{
-   display: flex;
+.Formulario-Login
+{
+    display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 12px;
 }
-.Formulario-Login input{
+.Formulario-Login input
+{
     background-color: #051405;
     border-color: #051405;
     padding: 10px 15px;
+    width: 200px;
+    border: 1px solid #1b4d1b ;
+    border-radius:  12px ;
+    color: #d4ffd4;
+    
     
     
 
 }
-.Formulario-Login button{
+
+.Tarjeta-Login form{
+    margin-top: 20px;
+}
+
+.Formulario-Login button
+{
     background-color: #051405;
     border-color: #051405;
     padding: 10px 15px;
+    color: #00a800;
+    font-weight: bold;
+    margin-top: 20px;
     
     
 
 }
+
+.Formulario-Login button:hover
+{
+    background-color: #0e380e;
+    border-color: #0f3d0f;
+    transform: translateY(-1px);
+    cursor: pointer;
+    
+
+}
+
 
 
 .Formulario-Login input::placeholder{
@@ -84,4 +125,9 @@ header {
     font-size: 15px;
     color: #466b46;
     text-shadow: 0 0 2px rgba(70, 107, 70, 0.35), 0 0 5px rgba(18, 56, 18, 0.4);  
+}
+
+.Formulario-Login input:focus 
+{
+    outline: 1.2px solid #226e22;
 }

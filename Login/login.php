@@ -17,8 +17,10 @@
         <p class="efecto-terminal espaciado">Funcionando Correctamente</p>
     </header>
     <div class="Tarjeta-Login">
-        <img class="logo2" alt="Logo2" src="../imagenes/logosinfondo.png">
-        <h2 class="efecto-terminal Login">SkySentinel</h2>
+        <div class="logo-texto">
+            <img class="logo2" alt="Logo2" src="../imagenes/logosinfondo.png">
+            <h2 class="efecto-terminal Login">SkySentinel</h2>
+        </div>
         <form class="Formulario-Login">
             <input type="text" placeholder="Usuario">
             <input type="password" placeholder="Contraseña">

@@ -10,16 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav id="menu-navegacion">
-            <div class="marca">
-                <img src="../imagenes/Logo.png" alt="Logo">
-                <p>Sky Sentinel</p>
-            </div>
-            <a href="#">Cerrar Sesión</a>
-        </nav>
-    </header>
-
+    <?php require __DIR__ . '/../header.php'; ?>
     <main>
         <div class="columna-izquierda">
             <div id="informacion">

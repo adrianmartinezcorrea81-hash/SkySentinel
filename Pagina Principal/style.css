@@ -247,3 +247,38 @@ main table {
     position: relative;
     z-index: 1;
 }
+.video-marcador {
+    border: 1px solid #166e2c;
+    background-color: rgba(2, 10, 5, 0.7);
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.boton-play {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    border: 1.5px solid #24d153;
+    background-color: transparent;
+    color: #2d4734;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.boton-play:hover {
+    background-color: rgba(36, 209, 83, 0.15);
+    color: #24d153;
+    box-shadow: 0 0 12px rgba(36, 209, 83, 0.4);
+}
+.texto-marcador {
+    color: #5b7561;
+    font-size: 0.85rem;
+    letter-spacing: 1.5px;
+}

@@ -66,7 +66,14 @@
 
         <div class="directo">
             <h3>VIDEO EN DIRECTO</h3>
-            <img src="../imagenes/VideoImagen.webp" alt="Video">
+                <div class="video-marcador">
+                    <button type="button" class="boton-play" aria-label="Reproducir video">
+                        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <polygon points="7,4 20,12 7,20"></polygon>
+                        </svg>
+                    </button>
+                    <span class="texto-marcador">MARCADOR DE VISTA PREVIA</span>
+                </div>
         </div>
 
         <div class="chat-vivo">

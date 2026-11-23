@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal - Sky Sentinel</title>
-    <link rel="preconnect" href="https://googleapis.com">
-    <link rel="preconnect" href="https://gstatic.com" crossorigin>
-    <link href="https://googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -53,7 +53,7 @@
                         <tr>
                             <td>UAP</td>
                             <td>18/09/26 03:15:22 AM</td>
-                            <td>38.4851ºN, -1.1022ºW,ALT:2800FT</td>
+                            <td>38.4851ºN, -1.1022ºW, ALT:2800FT</td>
                             <td>Movimiento errático 3 posibles UAPS</td>
                         </tr>
                         <tr>
@@ -67,7 +67,7 @@
                             <td>X</td>
                             <td>X</td>
                             <td>X</td>
-                        </tr>                                                
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -77,31 +77,45 @@
             <h3>VIDEO EN DIRECTO</h3>
             <img src="../imagenes/VideoImagen.webp" alt="Video">
         </div>
-        <div class="chat-vivo">
-            <div id="informacion">
-                <table class="informacion">
-                    <thead>
-                        <tr>
-                            <th colspan="2">Chat en vivo</th>
-                        </tr>
-                        <tbody>
-                            <tr>
-                                <td>[Guille]: Giro 90 grados imposible wow</td>
-                            </tr> 
-                            <tr>
-                                <td>[ADMIN]=NO MAYUSCULAS</td>
-                            </tr>
-                            <tr>
-                                <td>[DENIS_HIPP]: WOW INCREIBLE APP</td>
-                            </tr>
-                            <tr>
-                                <td>[SEBAS]: VIVA MEXICO</td>
-                            </tr>
-                        </tbody>
-                    </thead>
-                </table>
 
+        <div class="chat-vivo">
+            <div id="chat-contenedor">
+                <div class="chat-header">Chat en vivo</div>
+
+                <div class="chat-mensajes">
+                    <div class="mensaje">[Guille]: Giro 90 grados imposible wow</div>
+                    <div class="mensaje">[ADMIN]: NO MAYUSCULAS</div>
+                    <div class="mensaje">[DENIS_HIPP]: WOW INCREIBLE APP</div>
+                    <div class="mensaje">[SEBAS]: VIVA MEXICO</div>
+                </div>
+
+                <div class="chat-entrada">
+                    <input type="text" name="comentario" id="comentario" placeholder="ESCRIBE AQUI...">
+                    <button>ENVIAR</button>
+                </div>
+            </div>
+        </div>        
+    <div class="panel-inferior">
+        <div class="evento">
+            <h3>Evento</h3>
+            <div class="evento-datos">
+                <p>Location:asdasd</p>
+                <p>Altitude (YOLO):Estimated asdasd</p>
+                <p>Validacion Opensky API:0 civil</p>
+                <p>Trajectory:High speed</p>
+            </div>
+        </div>
+
+        <div class="mapa">
+            <h3>Localización en el mapa</h3>
+            <div class="mapa-visor">
+                <div class="mira">
+                    <div class="circulo"></div>
+                </div>
+            </div>
+        </div>
     </div>
+
     </main>
 </body>
 </html>

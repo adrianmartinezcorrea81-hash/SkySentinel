@@ -24,7 +24,8 @@
         <form class="Formulario-Login">
             <input type="text" placeholder="Usuario">
             <input type="password" placeholder="Contraseña">
-            <button>Login</button>
+            <button  type="submit">Login</button>
+
         </form>
     </div>
 </body>

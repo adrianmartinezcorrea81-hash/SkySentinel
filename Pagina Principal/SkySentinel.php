@@ -41,10 +41,10 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr onclick="window.location='../PaginaPost/PaginaPost.php';" style="cursor: pointer;">
                             <td>UAP</td>
-                            <td>18/09/26 03:15:22 AM</td>
-                            <td>38.4851ºN, -1.1022ºW, ALT:2800FT</td>
+                            <td> 18/09/26 03:15:22 AM</td>
+                            <td> 38.4851ºN, -1.1022ºW, ALT:2800FT</td>
                             <td>Movimiento errático 3 posibles UAPS</td>
                         </tr>
                         <tr>
